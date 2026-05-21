@@ -4,7 +4,7 @@ import { Link } from 'react-router'
 export default function Header() {
   return (
     <div>
-          <nav className="bg-neutral-primary fixed w-full z-20 top-0 start-0 border-b border-default">
+      <nav className="bg-white fixed w-full z-9 top-0 start-0 border-b border-default">
         <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
           <a href="https://flowbite.com/" className="flex items-center space-x-3 rtl:space-x-reverse">
             <img src="https://flowbite.com/docs/images/logo.svg" className="h-7" alt="Flowbite Logo" />
@@ -30,7 +30,7 @@ export default function Header() {
               </li>
               <li>
                 <a href="#" className="block py-2 px-3 text-heading rounded hover:bg-neutral-tertiary md:hover:bg-transparent md:border-0 md:hover:text-fg-brand md:p-0 md:dark:hover:bg-transparent"><Link to={'/contact'}>
-                Contact</Link></a>
+                  Contact</Link></a>
               </li>
             </ul>
           </div>
